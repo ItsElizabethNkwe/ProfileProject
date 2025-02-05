@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <img src="images/Pone.jpg" alt="Profile Picture" data-testid="profilePicture">
+        <h2 data-testid="fullName">Elizabeth Nkwe</h2>
+        <h3 data-testid="jobTitle">Aspiring Frontend Developer</h3>
+        <p data-testid="shortBio">
+            I am Elizabeth Nkwe from South Africa, an aspiring frontend developer. 
+            I love reading novels, watching series, exploring and learning new things. 
+            I love hanging out with my family and friends. I enjoy coding! 
+            My goal is to become a skilled frontend developer who creates 
+            beautiful and functional web experiences. I am currently enhancing my 
+            skills in HTML, CSS, and JavaScript while also exploring modern 
+            frameworks. I believe in continuous learning and collaboration.
+        </p>
+        <p data-testid="currentLocation"><strong>Location:</strong> South Africa</p>
+        <p data-testid="emailAddress"><strong>Email:</strong> elizabethnkwe8@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/ItsElizabethNkwe" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/elizabeth-nkwe-45a6622b4/" target="_blank">LinkedIn</a>
+        </div>
+        <p><strong>Current Time (UTC):</strong> <span data-testid="currentTimeUTC" id="utc-time"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
